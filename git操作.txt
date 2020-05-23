@@ -1,0 +1,6 @@
+先创建并初始化仓库git init
+然后git add . 跟踪文件
+然后git commit -m '提交信息' 提交到暂存区
+可通过git log 查看提交日志
+然后在git中将创建的新仓库的地址例如：git remote add origin xxxxx运行一次，然后你就可以用git remote了
+最后git push origin master就可以了
