@@ -63,28 +63,6 @@ var option2 = {
   ],
 };
 
-$(".cate-title").click(function () {
-  $(".cate-list").stop().slideToggle();
-});
-
-$(".lt-menu").click(function () {
-  $(".lt-aside").toggleClass("lt-out");
-  $(".main-head,body").toggleClass("pl-180");
-});
-
-$(".login-out").click(function () {
-  $.ajax({
-    type: "GET",
-    url: "/employee/employeeLogout",
-    dataType: "json",
-    success: function (data) {
-      if (data.success) {
-        location.href = "./login.html";
-      }
-    },
-  });
-});
-
 // 使用刚指定的配置项和数据显示图表。
 myChart1.setOption(option1);
 myChart2.setOption(option2);

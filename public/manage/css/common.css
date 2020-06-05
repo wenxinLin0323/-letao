@@ -110,7 +110,6 @@ ul {
 }
 .lt-main {
   width: 100%;
-  height: 1000px;
   background-color: white;
 }
 .lt-main .main-head {
@@ -129,7 +128,7 @@ ul {
   margin: 15px;
 }
 .lt-main .lt-content {
-  padding: 10px;
+  padding: 15px;
 }
 .lt-main .lt-crumbs {
   margin-top: 50px;
