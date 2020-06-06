@@ -111,7 +111,7 @@
     <script type="text/html" id="tmp">
       {{each rows v i}}
       <tr>
-                <td>{{v.id}}</td>
+                <td>{{i+1+size*(page-1)}}</td>
                 <td>{{v.username}}</td>
                 <td>{{v.mobile}}</td>
                 <td>{{v.isDelete==1?'启用':'禁用'}}</td>
